@@ -1,0 +1,87 @@
+body {
+  background-color: #2e3440;
+}
+
+@font-face {
+  font-family: nerdmono;
+  src: url(./assets/JetBrainsMonoNerdFont-Medium.ttf);
+}
+
+@font-face {
+  font-family: nerdbold;
+  src: url(../assets/JetBrainsMonoNerdFont-Bold.ttf);
+}
+
+.drpBar .drpBarMain li a:hover {
+  background-color: #d8dee9;
+}
+
+.loperTxt {
+  text-align: center;
+}
+
+.loperTxt h1 {
+  font-family: nerdmono;
+  color: #81a1c1;
+}
+
+.loperImgMain {
+  display: flex;
+  justify-content: center;
+}
+
+.loperImg {
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+  border: 5px solid #4c566a;
+}
+
+.mainTxt {
+  text-align: center;
+}
+
+.otherWelcomeText {
+  font-family: nerdmono;
+  color: #88C0D0;
+}
+
+.Projects h2 {
+  font-family: nerdmono;
+  font-size: 20px;
+  margin-top: 43px;
+  color:#BF616A;
+  text-align: center;
+}
+
+.Projects ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  max-width: 1920px;
+}
+
+.Projects li {
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: nerdmono;
+  font-size: 20;
+  color: #A3BE8C;
+}
+.other #contact h3 {
+  margin-top: 120px;
+  font-size: 20px;
+  text-align: center;
+  font-family: nerdmono;
+  color: #B48EAD;
+}
+
+.footerMain {
+  font-family: nerdmono;
+  color: #88C0D0;
+  text-align: center;
+  margin-top: 105px;
+}
+
+
